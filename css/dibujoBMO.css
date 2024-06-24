@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url("../images/1e7c7bc11fb2c4c7837540d81dec9e11.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+@font-face {
+    font-family: "bmo";
+    src: url("../fonts/Bmo_font-Regular.ttf");
+}
+
+.logo {
+    width: 759px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.logo>img {
+    width: 759px;
+    height: 292px;
+}
+
+mark {
+    background-color: rgb(0, 0, 0);
+    color: greenyellow;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10em;
+    margin: 50px;
+    font-family: "bmo";
+}
+
+.bmo {
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.cuerpo {
+    width: 400px;
+    height: 600px;
+    background-color: #25ad9f;
+    border: 5px solid black;
+    border-radius: 40px;
+    z-index: 2;
+}
+
+.cara {
+    margin: 0 auto;
+    width: 80%;
+    height: 35%;
+    background-color: #b9dfca;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+
+.ojos {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.ojo1>svg,
+.ojo2>svg {
+    width: 20px;
+    height: 20px;
+    fill: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.ojo1>svg {
+    margin-left: 20%;
+}
+
+.ojo2>svg {
+    margin-left: 73%;
+}
+
+.boca {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.boca>svg {
+    width: 100px;
+    height: 100px;
+    margin-left: 33%;
+}
+
+.zonadisquera {
+    display: flex;
+    width: 80%;
+    height: 7%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.disquera {
+    width: 60%;
+    height: 60%;
+    background-color: #004f37;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.botondisquera {
+    width: 11%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.botones {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    margin-top: 40px;
+}
+
+.botones1 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.cruceta1 {
+    width: 30px;
+    height: 90px;
+    background-color: #fdd04f;
+    border: 4px solid black;
+    position: absolute;
+    left: 100px;
+}
+
+.cruceta2 {
+    width: 90px;
+    height: 30px;
+    background-color: #fdd04f;
+    border: 4px solid black;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+
+.crucetacentro {
+    width: 22px;
+    height: 40px;
+    background-color: #fdd04f;
+    position: absolute;
+    left: 104px;
+    top: 30px;
+}
+
+.boton1 {
+    width: 35%;
+    height: 25px;
+    background-color: #01447e;
+    border: 4px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.boton2 {
+    width: 35%;
+    height: 25px;
+    background-color: #01447e;
+    border: 4px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+}
+
+.botones2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.bottriang>svg {
+    width: 120px;
+    height: 76px;
+    position: absolute;
+}
+
+.botverde {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.botverde>svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+
+.botrojo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.botrojo>svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 95px;
+    left: 50px;
+}
+
+.brazoizq {
+    overflow: hidden;
+    width: 100px;
+    height: 240px;
+
+}
+
+.brazoder {
+    overflow: hidden;
+    width: 100px;
+    height: 240px;
+    transform: scaleX(-1);
+}
+
+.piernasint {
+    width: 470px;
+    top: -23px;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    overflow: visible;
+    justify-content: space-between;
+    position: relative;
+}
+
+.piernaizqint>svg {
+    overflow: visible;
+}
+
+.piernaizqint {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    right: 40px;
+    transform: rotate(20deg);
+}
+
+.piernaderint>svg {
+    overflow: visible;
+}
+
+.piernaderint {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    right: 40px;
+    transform: scaleX(-1) rotate(20deg);
+    overflow: visible;
+}
+
+.piernasext{
+    width: 470px;
+    top: -223px;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    overflow: visible;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+
+.solaparder{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    right: 40px;
+    transform: scaleX(-1) rotate(20deg);
+    overflow: visible;
+}
+
+.solaparizq{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    right: 40px;
+    transform: rotate(20deg);
+    overflow: visible;
+}
